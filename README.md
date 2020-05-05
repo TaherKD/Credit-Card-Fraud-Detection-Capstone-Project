@@ -7,7 +7,9 @@ Banks need to be cautious about their customers’ transactions, as they cannot 
 ## Data Understanding
 The data set contains customer level data and was obtained from Kaggle. The data set includes credit card transactions made by European cardholders over a period of two days in September 2013.It contains thousands of individual transactions that took place over a course of two days and their respective labels.
 
-The data set has also been modified with Principal Component Analysis (PCA) to maintain confidentiality. Apart from ‘time’ and ‘amount’, all the other features (V1, V2, V3, up to V28) are the principal components obtained using PCA. The feature 'time' contains the seconds elapsed between the first transaction in the data set and the subsequent transactions. The feature 'amount' is the transaction amount. The feature 'class' represents class labelling, and it takes the value 1 in cases of fraud and 0 in others
+The data set has also been modified with Principal Component Analysis (PCA) to maintain confidentiality. Apart from ‘time’ and ‘amount’, all the other features (V1, V2, V3, up to V28) are the principal components obtained using PCA. The feature 'time' contains the seconds elapsed between the first transaction in the data set and the subsequent transactions. The feature 'amount' is the transaction amount. The feature 'class' represents class labelling, and it takes the value 1 in cases of fraud and 0 in others.
+
+The data can be found <a href="https://www.kaggle.com/mlg-ulb/creditcardfraud">here.</a>
 
 ## Project Pipeline
 **The approach followed is mentioned below along with the links for the relevant portions :**
