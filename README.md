@@ -67,7 +67,7 @@ All the models tried on the provided dataset include hyperparameter tuning based
     - Lightgbm
     - XGBoost
 
-**5.Comparison of the Models and Selecting the best models**
+**5. Comparison of the Models and Selecting the best models**
 1. Comparison of test roc_auc score, repeated cross_validation scores for the various models tried and selecting the best model from Normal, Random oversampled, SMOTE and ADASYN models created
 2. Understanding Feature importance based on the best model
 3. Evaluating various metrics such as recall, f1score for the best models and identifying optimal threshold using KS STASTIC
